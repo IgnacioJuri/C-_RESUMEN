@@ -7,7 +7,7 @@ using namespace std;
 // Condiciones de uso para corte de control
 
 // Pre Condiciones:
-// Tener un archivo ordenado por una clave, y que dicha clave se repita
+// Tener un archivo Agrupado por una clave, y que dicha clave se repita
 
 // Post condiciones: 
 // Tener que utilizar claves repetidas para algo
@@ -69,4 +69,5 @@ int main(){
     // Luego se lee el archivo y se repite el proceso hasta encontrar un dominio que no es igual al anterior
     // Cuando esto pasa se guarda ese dominio en la variable anterior y se recetea el contador de multas
     // Inicia el proceso de nuevo hasta llegar al final de archivo
+    return 0;
 };
